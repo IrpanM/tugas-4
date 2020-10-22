@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.gstatic.com/s/poppins/v13/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2'');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #192043;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+p {
+    font-size: 13px;
+}
+body {
+    background: url("asset/Images/ppp.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.satu {
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+.logo img{
+    width: 10%;
+    height: auto;
+    margin: 30px 40px 20px 40px;
+    float: left;
+}
+.nav-kanan {
+    width: 75%;
+    max-height: 100px;
+    float: left;
+    border-left: 1px #6a6f88 solid;
+    margin: 30px 0 0 0;
+}
+.info {
+    float: left;
+    padding: 10px 10px 15px 40px;
+}   
+.info img{
+    width: 20px;
+    height: auto;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.info p {
+    float: left;
+    font-weight: 700;
+}
+.info:nth-child(2) p {
+    color: #6a6f88;
+    background: #dddade;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+.info:nth-child(3){
+    float: right;
+    margin: 0;
+}
+.atas {
+    width: 100%;
+    float: left;
+    border-bottom: 1px #6a6f88 solid;
+}
+.bawah::before{
+    content: "";
+    clear: both;
+    display: block;
+}
+.bawah {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.navigasi-bawah {
+    padding: 15px 0 10px 0;
+}
+.navigasi-bawah ul li{
+    float: left;
+    margin: 0 35px 0 0;
+}
+.navigasi-bawah:nth-child(1) {
+    float: left;
+}
+.navigasi-bawah:nth-child(1) a{
+    color: black;
+}
+.navigasi-bawah:nth-child(2) {
+    float: right;
+}
+.navigasi-bawah:nth-child(2) ul li:last-child{
+    margin: 0 20px 0 0;
+}
+.navigasi-bawah a:hover {
+    color: #192043;
+}
+.dropdown::before {
+    content: "";
+    clear: both;
+    display: block;
+}
+.dropdown {
+    overflow: hidden;
+}
+.dropdown .dropdown-btn {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: #192043;
+    font-weight: 700;
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+.dropdown:hover .dropdown-konten {
+    display: block;
+}
+.dropdown-konten {
+    display: none;
+}
+.dropdown-konten img {
+    width: 30px;
+    height: auto;
+    margin: 0 0 -15px 0;
+}
+.dropdown-isi {
+    background: #ffff;
+    border-radius: 5px;
+    width: 180px;
+    height: auto;
+    padding: 10px 0 30px 0;
+    position: absolute;
+    text-align: left;
+    margin: 0 0 0 -75px;
+}
+.dropdown-konten a {
+    float: left;
+    margin: 0 0 0 -10px;
+    padding: 20px 0 0 0;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    color: #b1b1b1;
+}
+.dropdown-konten a:hover {
+    float: left;
+    padding: 20px 0 0 0;
+    font-size: 13px;
+    text-align: left;
+    color: #192043;
+}
+.isi::before {
+    content: "";
+    clear: both;
+    display: block;
+}
+.isi {
+    width: 60%;
+    padding: 0 0 0 40px;
+}
+.isi h1 {
+    float: left;
+    margin: 40px 0 0 0;
+    font-size: 45px;
+    font-family: 'Timnes Rowman', italic;
+    letter-spacing: 3px;
+}
+
+}
+.isi p {
+    font-size: 20px;
+    margin-top: -20px;
+}
+.isi button {
+    padding: 10px 40px;
+    font-weight: 700;
+    margin: 40px 20px 0 0;
+    border: 1px #6a6f88 solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.isi button:first-child {
+    color: #ffff;
+    background: #00b76d;
+    border: none;
+}
+.isi button:last-child {
+    background: none;
+    padding: 10px 25px;
+}
+.stampel {
+    margin: 70px 0 0 0;
+}
+.stampel img{
+    width: 80px;
+    height: auto;
+    margin: 0 20px 0 0;
+}
+footer, footer a{
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+    color: black;
+}
